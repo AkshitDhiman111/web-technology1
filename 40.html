@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Grid All Elements</title>
+
+    <style>
+        .container {
+            display: grid;
+            /* Grid structure */
+            grid-template-columns: 150px 1fr 1fr;
+            grid-template-rows: 80px 200px 80px;
+            /* Gap */
+            gap: 10px;
+            /* Alignment */
+            justify-items: center;
+            align-items: center;
+            /* Border */
+            border: 2px solid black;
+            padding: 10px;
+        }
+        /* Common style */
+        
+        .box {
+            background: steelblue;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        /* Grid span */
+        
+        .header {
+            grid-column: 1 / 4;
+        }
+        
+        .sidebar {
+            grid-row: 2 / 4;
+        }
+        
+        .content {
+            grid-column: 2 / 4;
+        }
+        
+        .footer {
+            grid-column: 2 / 4;
+        }
+        /* Self alignment */
+        
+        .content {
+            justify-self: start;
+            align-self: end;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box header">Header</div>
+
+        <div class="box sidebar">Sidebar</div>
+
+        <div class="box content">Main Content</div>
+
+        <div class="box footer">Footer</div>
+
+    </div>
+
+</body>
+
+</html>

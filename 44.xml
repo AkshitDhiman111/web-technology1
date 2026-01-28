@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+
+    <student>
+        <rollno>101</rollno>
+        <name>Akshit Kumar</name>
+        <course>B.tech</course>
+        <year>2nd Year</year>
+        <percentage>85</percentage>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Rohit Sharma</name>
+        <course>BCA</course>
+        <year>2nd Year</year>
+        <percentage>88</percentage>
+    </student>
+
+</students>
